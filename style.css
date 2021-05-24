@@ -1,0 +1,127 @@
+ header{
+    display: flex;
+    flex-wrap:wrap;
+  
+ }
+ 
+ body {
+      background-color: #E5E5E5;
+      margin: 0;
+ }
+}
+main{
+	
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.header1{
+	
+	position: absolute;
+width: 1920px;
+height: 100px;
+left: 0px;
+top: 0px;
+
+background: #181818;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.wave{
+
+position: absolute;
+width: 1919px;
+height: 100px;
+left: 0px;
+top: 0px;
+
+background-image: url(pages/wavehtml1.png);
+opacity: 80%;
+}
+
+.hedtext1{
+position: absolute;
+width: 598px;
+height: 74px;
+left: 661px;
+top: -33px;
+
+font-family: Intro ;
+font-style: normal;
+font-weight: normal;
+font-size: 65px;
+line-height: 120.19%;
+
+
+letter-spacing: -0.11em;
+
+color: #F1F1F1;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.maintext1{
+	position: absolute;
+width: 710px;
+height: 206px;
+left: 605px;
+top: 338px;
+
+font-family: Intro ;
+font-style: normal;
+font-weight: normal;
+font-size: 240px;
+line-height: 120.19%;
+margin: 0px;
+letter-spacing: -0.12em;
+
+color: #1F1F1F;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.maintext2{
+	position: absolute;
+width: 613px;
+height: 206px;
+left: 659px;
+top: 515px;
+margin: 0px;
+font-family: Intro ;
+font-style: normal;
+font-weight: normal;
+font-size: 180px;
+line-height: 120.19%;
+
+
+letter-spacing: -0.12em;
+
+color: #1F1F1F;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.traneimg{
+position: absolute;
+width: 85px;
+height: 85px;
+left: 12px;
+top: 12px;
+
+background: url(pages/normallogo11.png);
+
+
+}
+
+.traneimg2{
+	position: absolute;
+width: 116px;
+height: 116px;
+left: 1803px;
+top: 0px;
+margin: 0px;
+background: url(pages/WHITELOGO1.png);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+
