@@ -20,25 +20,22 @@ list-style-type: none;
 text-decoration:none;
 }
 
-header a {
-	text-decoration: none;
-	font-family: KoHo;
+header a{
+text-decoration: none;
+}
+
+header p{
+font-family: KoHo;
 font-style: normal;
 font-weight: 600;
 font-size: 20px;
 line-height: 26px;
-
-
-text-align: center;
 letter-spacing: 0.135em;
-
-color: #2E2E2E;
-
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
 
 }
 .menu{
-	display: flex;
+	display: flex; 
 }
 
 .menu li {
@@ -48,19 +45,39 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 .nav{
 	display: flex;
 	align-items: center;
+
 }
 
 .logo{
-margin-right: 950px;
+
+
+margin-right: 920px;
 
 }
+
 ul, li{
 	display: block;
 	padding: 0;
 	margin: 0;
 }
-
-header a:hover{
- color:  #42AAFF;
+.hover1{
+ color: #2E2E2E;
  transition: all 0.4s ease;
+}
+ .hover1:hover{
+ color:  #42AAFF;
+ 
+}
+.btn{
+   
+   position: absolute;	
+   width: 265px;
+   height: 45px;
+	left: 129px;
+    top: 35px;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    margin: 0;
+    cursor: pointer;
 }

@@ -688,7 +688,6 @@ Copyright (c) 2013 Daniel Eden
 .bounceInRight {
   -webkit-animation-name: bounceInRight;
   animation-name: bounceInRight;
-  animation-delay: 1s;
 }
 
 @-webkit-keyframes bounceInUp {
