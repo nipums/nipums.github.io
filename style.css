@@ -19,12 +19,9 @@ li{
 list-style-type: none;
 text-decoration:none;
 }
-
 header a{
 text-decoration: none;
-}
-
-header p{
+color: #2E2E2E;
 font-family: KoHo;
 font-style: normal;
 font-weight: 600;
@@ -58,16 +55,13 @@ ul, li{
 	padding: 0;
 	margin: 0;
 }
-.hover1{
- color: #2E2E2E;
- transition: all 0.4s ease;
-}
+ 
  .hover1:hover{
  color:  #42AAFF;
  
 }
-.btn{
-   
+
+.btn{  
    position: absolute;	
    width: 265px;
    height: 45px;
