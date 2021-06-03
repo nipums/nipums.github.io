@@ -576,7 +576,7 @@
 
     .logo {
         width: 11em;
-        height: 2.3em;
+        height: 6.3em;
         background: center cover;
     }
 
@@ -619,6 +619,7 @@
         
         z-index: 1;
         width: 14em;
+         height: 7.3em;
         background: center cover;
     }
 
@@ -1106,7 +1107,8 @@
 
     .logo {
         width: 16em;
-        height: 2.8em;
+         height: 8.3em;
+         top: 0.5em;
         background: center cover;
     }
 
