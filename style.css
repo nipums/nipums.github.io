@@ -1,3 +1,14 @@
+@font-face {
+font-family: 'Myriad Pro Bold';
+src: url('MyriadPro-Bold.eot');
+src: url('MyriadPro-Bold.eot?#iefix') format('embedded-opentype'),
+url('MyriadPro-Bold.woff') format('woff'),
+url('MyriadPro-Bold.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+
 @keyframes rotation {
     from {
         transform: rotate(0deg);
