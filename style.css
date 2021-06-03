@@ -242,7 +242,7 @@
 .feinman {
     font-size: 36px;
     height: 21.4em;
-    background: #F2F2F2 url(../images/feinman.png) no-repeat bottom left;
+    background: #F2F2F2 url(image/с++creator.png) no-repeat bottom left;
     background-size: 23em 17em;
     position: relative;
 }
@@ -371,7 +371,7 @@
 .khan__book-pic {
     height: 25.3em;
     width: 25.8em;
-    background-image: url(../images/book.jpg);
+    background-image: url(image/с++book.png);
     background-size: cover;
     background-position: 0 0;
 }
