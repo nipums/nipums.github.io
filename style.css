@@ -29,8 +29,8 @@
 }
 
 .logo {
-    width: 5.2em;
-    height: 5.6em;
+    width: 16em;
+    height: 8.3em;
     background: center cover;
     background-repeat: no-repeat;
 }
@@ -38,8 +38,9 @@
 .logo_place-header {
     position: absolute;
     top: 1.5em;
-    left: 3em;
-    background-image: url(image/scoop-it-logo.svg);
+    left: 2.5em;
+    background-image: url(image/itlogo2.svg);
+
 }
 
 .header__title {
@@ -421,7 +422,7 @@
 .kaufman__triangle {
     width: 36.5em;
     height: 36.5em;
-    background-image: url(../images/triangle.svg);
+    background-image: url(image/bluemachpoly.svg);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -574,8 +575,8 @@
     }
 
     .logo {
-        width: 11em;
-        height: 6.3em;
+        width: 16em;
+        height: 8.3em;
         background: center cover;
     }
 
@@ -617,8 +618,8 @@
     .logo {
         
         z-index: 1;
-        width: 14em;
-         height: 7.3em;
+       width: 16em;
+    height: 8.3em;
         background: center cover;
     }
 
@@ -695,6 +696,7 @@
 }
 
 @media screen and (max-width : 975px) {
+     
     .cards__item {
         width: 8em;
         margin: 2.3em .6em 0;
@@ -768,6 +770,15 @@
 }
 
 @media screen and (max-width : 870px) {
+
+      .logo {
+        
+        z-index: 1;
+        width: 13em;
+        height: 6.3em;
+        background: center cover;
+    }
+
 
     .header {
         max-height: 30em;
@@ -1105,9 +1116,9 @@
     }
 
     .logo {
-        width: 16em;
-         height: 8.3em;
-         top: 0.5em;
+        width: 13em;
+        height: 6.3em;
+         top: 1.5em;
         background: center cover;
     }
 
