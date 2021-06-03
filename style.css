@@ -88,9 +88,8 @@
 .header__main-illustration {
     width: 38.25em;
     height: 30.4em;
-    background-image: url(image/notebook3.png);
+    background-image: url(image/notebo.png);
     background-size: cover;
-    /* background-position: center; */
     position: absolute;
     bottom: 0;
     right: 0;
