@@ -29,8 +29,8 @@
 }
 
 .logo {
-    width: 9.2em;
-    height: 1.6em;
+    width: 5.2em;
+    height: 5.6em;
     background: center cover;
     background-repeat: no-repeat;
 }
@@ -39,7 +39,7 @@
     position: absolute;
     top: 1.5em;
     left: 3em;
-    background-image: url(image/MaxStudio2.svg);
+    background-image: url(image/scoop-it-logo.svg);
 }
 
 .header__title {
