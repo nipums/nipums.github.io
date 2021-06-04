@@ -7,6 +7,9 @@ url('MyriadPro-Bold.ttf') format('truetype');
 font-weight: normal;
 font-style: normal;
 }
+#Слой_1{
+font-family: 'MyriadPro-Bold';
+}
 
 
 @keyframes rotation {
