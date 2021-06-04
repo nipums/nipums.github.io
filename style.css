@@ -1,13 +1,3 @@
-@font-face {
-font-family: 'MyriadPro-Bold';
-src: url('MyriadPro-Bold.eot');
-src: url('MyriadPro-Bold.eot?#iefix') format('embedded-opentype'),
-url('MyriadPro-Bold.woff') format('woff'),
-url('MyriadPro-Bold.ttf') format('truetype');
-font-weight: normal;
-font-style: normal;
-}
-
 @keyframes rotation {
     from {
         transform: rotate(0deg);
@@ -39,8 +29,8 @@ font-style: normal;
 }
 
 .logo {
-    width: 16em;
-    height: 8.3em;
+    width: 15em;
+    height: 7.3em;
     background: center cover;
     background-repeat: no-repeat;
 }
@@ -48,7 +38,7 @@ font-style: normal;
 .logo_place-header {
     position: absolute;
     top: 1.5em;
-    left: 2.5em;
+    left: 3em;
     background-image: url(image/itlogo2.svg);
 
 }
@@ -585,8 +575,8 @@ font-style: normal;
     }
 
     .logo {
-        width: 16em;
-        height: 8.3em;
+        width: 15em;
+        height: 7.3em;
         background: center cover;
     }
 
@@ -626,10 +616,10 @@ font-style: normal;
         font-size: 16px;
     }
     .logo {
-        
+        top: 2em;  
         z-index: 1;
-       width: 16em;
-    height: 8.3em;
+        width: 15em;
+        height: 7.3em;
         background: center cover;
     }
 
@@ -782,9 +772,9 @@ font-style: normal;
 @media screen and (max-width : 870px) {
 
       .logo {
-        
+        top: 1.5em;  
         z-index: 1;
-        width: 13em;
+        width: 12em;
         height: 6.3em;
         background: center cover;
     }
@@ -1125,13 +1115,6 @@ font-style: normal;
         font-size: 12px;
     }
 
-    .logo {
-        width: 13em;
-        height: 6.3em;
-         top: 1.5em;
-        background: center cover;
-    }
-
     .feinman__title {
         padding: 0 2em;
     }
@@ -1190,6 +1173,14 @@ font-style: normal;
 
 
 @media screen and (max-width : 396px) {
+
+     .logo {
+       z-index: 1;
+       top: 1.5em;
+       width: 12em;
+       height: 6em;
+       background: center cover;
+    }
 
     .header {
         font-size: 12px;
