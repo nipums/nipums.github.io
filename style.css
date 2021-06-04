@@ -8,14 +8,6 @@ font-weight: normal;
 font-style: normal;
 }
 
-.cls-2{
-font-family: 'MyriadPro-Bold';
-}
-
-.cls-1{
-font-family: 'MyriadPro-Bold';
-}
-
 @keyframes rotation {
     from {
         transform: rotate(0deg);
