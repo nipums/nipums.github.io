@@ -459,15 +459,15 @@
     background-image: url(image/gitlogo4.svg);
 }
 .resources__logo_n1 {
-    background-image: url(../images/logo/n1.svg);
+    background-image: url(image/habr4.svg);
 }
 
 .resources__logo_strelka {
-    background-image: url(../images/logo/strelka.svg);
+    background-image: url(image/cyberfor.svg);
 }
 
 .resources__logo_polka {
-    background-image: url(../images/logo/polka.svg);
+    background-image: url(image/codeac.svg);
 }
 
 
