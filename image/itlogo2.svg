@@ -6,6 +6,7 @@
 
 @font-face {
 font-family: 'MyriadPro-Bold';
+src: url('MyriadPro-Bold.otf');
 src: url('MyriadPro-Bold.eot');
 src: url('MyriadPro-Bold.eot?#iefix') format('embedded-opentype'),
 url('MyriadPro-Bold.woff') format('woff'),
