@@ -480,9 +480,14 @@
 }
 
 .logo_footer {
-    width: 7.7em;
-    height: 1.45em;
-    background-image: url(../images/logo_grey.svg);
+    
+    position: absolute;
+    top: -0.5em;
+    width: 15em;
+    height: 7.3em;
+    background: center cover;
+    background-repeat: no-repeat;
+    background-image: url(image/logoitwite4.svg);
 }
 
 .footer__columns {
@@ -727,6 +732,14 @@
 }
 
 @media screen and (max-width : 892px) {
+
+    .logo_footer { 
+  
+    top: -1em;
+    width: 13em;
+    height: 6.3em;  
+}
+
 
     .technics {
         font-size: 20px;
@@ -1111,6 +1124,19 @@
 
 @media screen and (max-width : 425px) {
 
+    .footer__author{
+
+        width: 14em;
+        top: 3em;
+       
+    }
+
+    .logo_footer { 
+    top: -2em;
+    width: 4em;
+    height: 5.3em;
+}
+
     .two-columns {
         font-size: 12px;
     }
@@ -1167,14 +1193,15 @@
     }
 
     .section-title_theme-dark {
-        font-size: 2.2em;
+        font-size: 2em;
     }
 }
 
 
 @media screen and (max-width : 396px) {
 
-     .logo {
+    .logo {
+       
        z-index: 1;
        top: 1.5em;
        width: 12em;
@@ -1203,7 +1230,7 @@
         font-size: 11px;
     }
 
-    .table {
+    .table {      
         font-size: 18px;
     }
 
