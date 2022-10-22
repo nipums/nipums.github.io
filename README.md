@@ -1,4 +1,4 @@
-# trane102.github.io
+# nipums.github.io
 
 ```
 Programmer: Maxim Borisenko
