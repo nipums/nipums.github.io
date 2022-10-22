@@ -3,7 +3,7 @@
 ```
 Programmer: Maxim Borisenko
 
-Technology: HTML5, CSS, JavaScript
+Technology: HTML5, CSS
 
 Version: 1.0
 ```
