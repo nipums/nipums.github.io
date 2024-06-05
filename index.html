@@ -1,18 +1,26 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
-  <title>Кликер</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кликер Игра</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body onload="customizeNavbar();">
-  <div class="container">
-    <h1>Пиздатый кликер</h1>
-    <p>Нажми кнопку, чтобы добавить клики</p>
-    <button id="clickButton">Клик</button>
-    <p id="score">Кликов: 0</p>
-  </div>
-  <script src="script.js"></script>
+<body>
+    <div class="container">
+        <h1>Кликер Игра</h1>
+        <p>Очки: <span id="score">0</span></p>
+        <button class="button" id="clickButton">Кликни меня!</button>
+        <div class="shop">
+            <h2>Магазин</h2>
+            <div class="shop-item">
+                <button class="button" id="autoClickerButton">Автокликер (100 очков)</button>
+            </div>
+            <div class="shop-item">
+                <button class="button" id="multiClickButton">Многократный клик (200 очков)</button>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
 </body>
 </html>
