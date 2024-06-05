@@ -1,7 +1,15 @@
 let score = localStorage.getItem("score1");
 
 function customizeNavbar() {
-  document.getElementById('score').textContent = 'Кликов: ' + localStorage.getItem("score1");
+  if (localStorage.getItem("score1") != null)
+  {
+    document.getElementById('score').textContent = 'Кликов: ' + localStorage.getItem("score1");
+  }
+
+  else
+  {
+    document.getElementById('score').textContent = 'Кликов: ' + 0;
+  }
 }
 
 window.onload = customizeNavbar;
