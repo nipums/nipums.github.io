@@ -1,4 +1,5 @@
 let score = localStorage.getItem("score1");
+document.getElementById('score').textContent = 'Кликов: ' + score;
 
 document.getElementById('clickButton').addEventListener('click', function() {
   score++;
